@@ -2,8 +2,8 @@ package com.cc.springdatajpa.inheritanceexamples.bootstrap;
 
 import com.cc.springdatajpa.inheritanceexamples.model.mappedsuperclass.Developer;
 import com.cc.springdatajpa.inheritanceexamples.model.mappedsuperclass.Teacher;
-import com.cc.springdatajpa.inheritanceexamples.reporitories.DeveloperRepository;
-import com.cc.springdatajpa.inheritanceexamples.reporitories.TeacherRepository;
+import com.cc.springdatajpa.inheritanceexamples.reporitories.mappedsuperclassrdao.DeveloperMappedRepository;
+import com.cc.springdatajpa.inheritanceexamples.reporitories.mappedsuperclassrdao.TeacherMappedRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 public class DataLoader implements CommandLineRunner {
 
-    private final TeacherRepository teacherRepository;
-    private final DeveloperRepository developerRepository;
+    private final TeacherMappedRepository teacherRepository;
+    private final DeveloperMappedRepository developerRepository;
 
     @Override
     public void run(String... args) throws Exception {
