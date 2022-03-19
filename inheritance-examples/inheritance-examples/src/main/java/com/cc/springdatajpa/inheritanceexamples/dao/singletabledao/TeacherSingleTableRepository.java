@@ -1,4 +1,4 @@
-package com.cc.springdatajpa.inheritanceexamples.reporitories.singletabledao;
+package com.cc.springdatajpa.inheritanceexamples.dao.singletabledao;
 
 import com.cc.springdatajpa.inheritanceexamples.model.singletable.TeacherSingleTable;
 import org.springframework.data.repository.CrudRepository;

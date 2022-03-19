@@ -1,4 +1,4 @@
-package com.cc.springdatajpa.inheritanceexamples.reporitories.mappedsuperclassrdao;
+package com.cc.springdatajpa.inheritanceexamples.dao.mappedsuperclassrdao;
 
 import com.cc.springdatajpa.inheritanceexamples.model.mappedsuperclass.Developer;
 import org.springframework.data.repository.CrudRepository;

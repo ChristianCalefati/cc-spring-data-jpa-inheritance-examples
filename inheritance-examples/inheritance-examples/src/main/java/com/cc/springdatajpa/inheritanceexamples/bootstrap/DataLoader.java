@@ -2,8 +2,8 @@ package com.cc.springdatajpa.inheritanceexamples.bootstrap;
 
 import com.cc.springdatajpa.inheritanceexamples.model.mappedsuperclass.Developer;
 import com.cc.springdatajpa.inheritanceexamples.model.mappedsuperclass.Teacher;
-import com.cc.springdatajpa.inheritanceexamples.reporitories.mappedsuperclassrdao.DeveloperMappedRepository;
-import com.cc.springdatajpa.inheritanceexamples.reporitories.mappedsuperclassrdao.TeacherMappedRepository;
+import com.cc.springdatajpa.inheritanceexamples.dao.mappedsuperclassrdao.DeveloperMappedRepository;
+import com.cc.springdatajpa.inheritanceexamples.dao.mappedsuperclassrdao.TeacherMappedRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
